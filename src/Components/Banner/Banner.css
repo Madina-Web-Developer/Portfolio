@@ -1,0 +1,104 @@
+.Mina_Banner{
+
+    @apply h-screen  w-full 
+}
+
+
+.left_side{
+
+    @apply pt-[12%] inline-block w-fit
+}
+
+.name_d{
+
+    @apply bg-white/20 inline-block p-[8px] rounded-[8px] 
+}
+
+.name_d h2{
+
+    @apply text-white font-Poppins font-semibold
+
+    text-[15px] 
+}
+
+.MINA{
+
+    @apply mt-[35px]
+}
+
+.left_side h1{
+
+    @apply font-Poppins font-bold text-white 
+    
+    inline-block w-fit
+
+    text-[38px]
+}
+
+
+
+.MINA .emoji{
+
+    @apply text-[38px] mt-[-10px] 
+}
+
+.Icon_text{
+
+    @apply mt-[20px] flex gap-[8px] items-center
+}
+
+.Icon_text .react img{
+
+    @apply w-[40px] animate-spin animate-delay-[8000] animate-ease-linear transition-all duration-1000
+}
+
+.Icon_text h4{
+
+    @apply  font-Volvohk font-bold text-[#83F1FB]
+
+    text-[38px] inline-block w-fit
+ }
+
+ .left_side p{
+
+    @apply  text-white font-Poppins font-medium
+
+    mt-[25px]
+
+    w-[]
+    md:w-[]
+    lg:w-[400px]
+
+    xl:w-[600px]
+
+    leading-loose
+
+    tracking-wide
+
+ }
+
+ .left_side .button{
+
+    @apply bg-[#07EAFF] py-[14px] px-[8px] w-[160px]
+    
+    
+    font-semibold text-[#021D45] 
+
+    text-[13px]
+
+    flex gap-[2px]
+    rounded-md 
+    
+    mt-[40px] active:scale-[1.1] transition-all duration-[.2s]
+ }    
+
+ .left_side .button img{
+
+    @apply w-[16px] animate-pulse
+ }
+
+
+ .right_side img{
+
+    @apply w-[680px] lg:h-[815px]
+ }

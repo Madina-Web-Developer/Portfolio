@@ -1,0 +1,29 @@
+.Mina_nav{
+
+    @apply w-full absolute bg-transparent py-[30px]
+}
+
+.main_nav{
+
+    @apply flex justify-between items-center
+}
+
+.Logo img{
+
+    @apply  w-[120px] 
+}
+
+.text ul{
+
+    @apply flex 
+    
+    gap-[55px] font-Volvohk font-semibold
+    
+    text-[20px] tracking-wide text-[#15ddf0]
+}
+
+.text ul li a{
+
+    @apply hover:text-gray-300 transition-all duration-[.3s]
+}
+
