@@ -1,6 +1,6 @@
 .Mina_nav{
 
-    @apply w-full absolute bg-transparent py-[30px]
+    @apply w-full absolute bg-transparent py-[25px]
 }
 
 .main_nav{
@@ -17,13 +17,13 @@
 
     @apply flex 
     
-    gap-[55px] font-Volvohk font-semibold
+    gap-[55px] font-Jenna font-semibold
     
-    text-[20px] tracking-wide text-[#15ddf0]
+    text-[20px] tracking-wide text-[#dfdede]
 }
 
 .text ul li a{
 
-    @apply hover:text-gray-300 transition-all duration-[.3s]
+    @apply hover:text-[#0de7fb] transition-all duration-[.3s]
 }
 

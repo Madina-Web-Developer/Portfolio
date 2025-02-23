@@ -9,7 +9,8 @@ export default {
     fontFamily: {
       'Volvohk': ['Volkhov', 'serif'],
       'Poppins': ["Poppins", 'serif'],
-      'vidaloka':["Vidaloka", "serif"]
+      'vidaloka':["Vidaloka", "serif"],
+      'Jenna':["Space Grotesk", "serif"],
 
     },
     container: {

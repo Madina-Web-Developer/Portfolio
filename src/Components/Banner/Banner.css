@@ -6,7 +6,7 @@
 
 .left_side{
 
-    @apply pt-[12%] inline-block w-fit
+    @apply pt-[14%] inline-block w-fit
 }
 
 .name_d{
@@ -16,35 +16,35 @@
 
 .name_d h2{
 
-    @apply text-white font-Poppins font-semibold
+    @apply text-white font-Jenna tracking-[3px] font-semibold
 
-    text-[15px] 
+    text-[12px] 
 }
 
 .MINA{
 
-    @apply mt-[35px]
+    @apply mt-[20px]
 }
 
 .left_side h1{
 
-    @apply font-Poppins font-bold text-white 
+    @apply font-Jenna font-bold text-white 
     
     inline-block w-fit
 
-    text-[38px]
+    text-[45px]
 }
 
 
 
 .MINA .emoji{
 
-    @apply text-[38px] mt-[-10px] 
+    @apply text-[38px] mt-[-5px] 
 }
 
 .Icon_text{
 
-    @apply mt-[20px] flex gap-[8px] items-center
+    @apply  flex gap-[8px] items-center
 }
 
 .Icon_text .react img{
@@ -54,22 +54,24 @@
 
 .Icon_text h4{
 
-    @apply  font-Volvohk font-bold text-[#83F1FB]
+    @apply  font-Jenna font-bold text-[#00def2]
 
-    text-[38px] inline-block w-fit
+    text-[45px] inline-block w-fit
  }
 
  .left_side p{
 
-    @apply  text-white font-Poppins font-medium
-
-    mt-[25px]
+    @apply  text-gray-300 font-Jenna font-medium
+    
+    
+    text-[17px]
+    mt-[20px]
 
     w-[]
     md:w-[]
-    lg:w-[400px]
+    lg:w-[450px]
 
-    xl:w-[600px]
+    xl:w-[700px]
 
     leading-loose
 
@@ -79,7 +81,14 @@
 
  .left_side .button{
 
-    @apply bg-[#07EAFF] py-[14px] px-[8px] w-[160px]
+    @apply bg-[#0de7fb] py-[14px] px-[6px] w-[160px] 
+    
+    
+    hover:bg-[#000] hover:text-white hover:border-double
+
+    border-[1px]
+
+   shadow-[0px_0px_41px_-11px_#00fffb] 
     
     
     font-semibold text-[#021D45] 
@@ -87,18 +96,19 @@
     text-[13px]
 
     flex gap-[2px]
-    rounded-md 
+
+    rounded-lg
     
-    mt-[40px] active:scale-[1.1] transition-all duration-[.2s]
+    mt-[45px] active:scale-[1.1] transition-all duration-[.4s]
  }    
 
  .left_side .button img{
 
-    @apply w-[16px] animate-pulse
+    @apply w-[18px] animate-pulse
  }
 
 
  .right_side img{
 
-    @apply w-[680px] lg:h-[815px]
+    @apply w-[700px] lg:h-[815px]
  }
