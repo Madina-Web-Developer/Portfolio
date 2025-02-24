@@ -108,7 +108,7 @@
  }
 
 
- .right_side img{
+ .right_side{
 
     @apply lg:w-[700px] lg:h-screen overflow-hidden
  }

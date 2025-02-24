@@ -3,12 +3,9 @@ import './Banner.css'
 import bannerimg from '../../assets/Banner.png'
 import { Link } from 'react-router'
 import YouTubeLogo from '../../assets/YouTube.png'
-import Madina1 from '../../assets/Madina1.webp'
-import Madina2 from '../../assets/Madina2.webp'
-import Madina3 from '../../assets/Madina3.webp'
-import Madina4 from '../../assets/Madina4.webp'
 import Typewriter from 'typewriter-effect';
 import AnimatedCoursor from '../CouserEffect/AnimatedCoursor'
+import BannerSlide from '../BannerSlide/BannerSlide'
 
 
 
@@ -69,11 +66,9 @@ const Banner = () => {
                </div>
   
                 <div className='right_side overflow-hidden absolute top-0 right-0'>
-                <img className='' src={Madina2} alt="picture"/>
+                   <BannerSlide/>
                 </div>
-               
-                 
-            
+                  
 
         </div>
        
