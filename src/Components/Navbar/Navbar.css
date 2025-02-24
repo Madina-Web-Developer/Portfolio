@@ -10,7 +10,7 @@
 
 .Logo img{
 
-    @apply  w-[120px] 
+    @apply  w-[100px] 
 }
 
 .text ul{
@@ -19,7 +19,7 @@
     
     gap-[55px] font-Jenna font-semibold
     
-    text-[20px] tracking-wide text-[#dfdede]
+    text-[18px] tracking-wide text-[#dfdede]
 }
 
 .text ul li a{

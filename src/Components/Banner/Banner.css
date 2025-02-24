@@ -6,7 +6,7 @@
 
 .left_side{
 
-    @apply pt-[14%] inline-block w-fit
+    @apply pt-[13%] inline-block w-fit
 }
 
 .name_d{
@@ -18,7 +18,7 @@
 
     @apply text-white font-Jenna tracking-[3px] font-semibold
 
-    text-[12px] 
+    md:text-[10px] 
 }
 
 .MINA{
@@ -32,14 +32,14 @@
     
     inline-block w-fit
 
-    text-[45px]
+    md:text-[36px]
 }
 
 
 
 .MINA .emoji{
 
-    @apply text-[38px] mt-[-5px] 
+    @apply text-[32px] mt-[-5px] 
 }
 
 .Icon_text{
@@ -56,12 +56,12 @@
 
     @apply  font-Jenna font-bold text-[#00def2]
 
-    text-[45px] inline-block w-fit
+    text-[38px] inline-block w-fit
  }
 
  .left_side p{
 
-    @apply  text-gray-300 font-Jenna font-medium
+    @apply  text-gray-300 font-Jenna font-medium 
     
     
     text-[17px]
@@ -69,9 +69,9 @@
 
     w-[]
     md:w-[]
-    lg:w-[450px]
+    lg:w-[400px]
 
-    xl:w-[700px]
+    xl:w-[650px]
 
     leading-loose
 
@@ -81,7 +81,7 @@
 
  .left_side .button{
 
-    @apply bg-[#0de7fb] py-[14px] px-[6px] w-[160px] 
+    @apply bg-[#0de7fb] py-[12px] px-[6px] w-[160px] 
     
     
     hover:bg-[#000] hover:text-white hover:border-double
@@ -110,5 +110,5 @@
 
  .right_side img{
 
-    @apply w-[700px] lg:h-[815px]
+    @apply lg:w-[650px] lg:h-screen overflow-hidden
  }

@@ -1,7 +1,7 @@
 .custom-cursor {
     position: fixed;
-    width: 11px;               /* Small circle size */
-    height: 11px;
+    width: 10px;               /* Small circle size */
+    height: 10px;
     background-color: rgb(255, 255, 255);   /* White color for the circle */
     border-radius: 50%;
     pointer-events: none;      /* Prevents interference with click events */
