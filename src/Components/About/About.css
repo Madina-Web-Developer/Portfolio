@@ -1,4 +1,69 @@
 .About_Mina{
 
-    @apply h-screen  w-full 
+    @apply  w-full min-h-screen
+}
+
+.SmallC{
+
+    @apply absolute top-[30px] right-[-20%]
+}
+
+.SmallC img{
+
+    @apply 
+
+    w-[]
+
+    lg:w-[140px] animate-spin-slow
+}
+
+.circle{
+
+    @apply absolute bottom-[-13%] left-[-37%] z-[-10]
+}
+
+.circle img{
+
+    @apply w-[320px] animate-spin-slow
+}
+
+
+.all_mina{
+
+    @apply flex justify-center items-center gap-[100px] 
+
+   
+}
+
+.about_img{
+
+    @apply border-[1px] border-[#939393] rounded-[25px] 
+}
+
+.about_img .mypicture{
+
+    @apply 
+    
+    w-[]
+    md:w-[]
+    lg:w-[]
+    xl:w-[400px]
+}
+
+
+.about_me h1{
+
+    @apply text-white mb-[30px]
+}
+
+
+.intro h2{
+
+    @apply text-white  mb-[30px]
+}
+
+
+.main_about p{
+
+    @apply text-[#fff] w-[400px]
 }

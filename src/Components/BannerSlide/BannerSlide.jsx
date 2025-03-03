@@ -28,7 +28,7 @@ const BannerSlide = () => {
 
 
     const properties = {
-        duration: 2000,
+        duration: 1500,
         transitionDuration: 1000, 
         infinite: true, 
         indicators: false, 

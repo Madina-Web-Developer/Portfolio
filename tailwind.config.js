@@ -17,7 +17,11 @@ export default {
        center: true,
     },
 
-    extend: {},
+    extend: {
+      animation: {
+        'spin-slow': 'spin 40s linear infinite', // Adjust speed as needed
+      },
+    },
   },
   plugins: [
 
