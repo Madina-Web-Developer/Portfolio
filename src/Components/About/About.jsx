@@ -51,11 +51,20 @@ const About = () => {
             data-aos-duration="1200"
            >
            <div className="intro">
-            <h2>I’M AVAILABLE FOR<span>REACT</span>WEB DESIGN & DEVELOPMENT<span>PROJECTS</span></h2>
+            <h2>I AM AVAILABLE FOR <span> REACT</span> WEB DESIGN & DEVELOPMENT<span> PROJECTS</span></h2>
            </div>
 
            <div className="main_about">
-            <p>I am a dedicated and professional website designer and developer with a strong focus on creating user-friendly and modern responsive websites. I am a strong communicator and problem solver. I approach to clean code structure and ability to work efficiently under pressure make you a reliable choice for clients looking to enhance their projects.</p>
+            <p>I am a dedicated and professional website designer and developer with a strong focus on creating user-friendly and modern responsive websites. I am a strong communicator and problem solver. I approach to clean code structure and ability to work efficiently under pressure make you a reliable choice for clients looking to enhance their projects.
+             <br />
+             <br />
+            ✅ I am Available to work 24/7 days a Week.
+            ✅ I am a strong communicator.
+            ✅ I am a focused problem solver.
+            ✅ I will provide daily updates on your projects and progress.
+            ✅ Fast Turn Around & Can go under Pressure.
+            ✅Clean code structure.
+            </p>
            </div>
 
            </div>

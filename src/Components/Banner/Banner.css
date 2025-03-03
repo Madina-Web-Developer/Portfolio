@@ -11,7 +11,7 @@
 
 .name_d{
 
-    @apply bg-white/20 inline-block p-[8px] rounded-[8px] 
+    @apply bg-white/20 inline-block p-[8px] rounded-[4px] 
 }
 
 .name_d h2{
