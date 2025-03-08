@@ -1,0 +1,37 @@
+.mina_counter{
+
+    @apply w-full 
+    
+    h-[160px] p-[20px]
+}
+
+
+.main_counter{
+
+    @apply flex justify-between items-center
+}
+
+
+.singel_counter .Cnumber h1{
+
+    @apply font-vidaloka font-medium text-white 
+    
+    ml-[80px]
+    text-[]
+    md:text-[]
+    lg:text-[38px]
+}
+
+.singel_counter .Cnumber h1 span{
+
+    @apply text-[#9FF7FF]
+}
+
+.singel_counter .Ctext h2 {
+
+    @apply font-vidaloka font-normal text-[#9FF7FF]
+
+    text-[]
+    md:text-[]
+    lg:text-[28px]
+}

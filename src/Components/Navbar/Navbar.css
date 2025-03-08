@@ -1,12 +1,12 @@
 .Mina_nav{
 
-    @apply w-full  fixed bg-transparent py-[15px];
+    @apply w-full absolute  py-[15px];
 
-    animation: scroll-transition;
-    animation-timeline: scroll(y);
+    /* animation: scroll-transition;
+    animation-timeline: scroll(y); */
 }
 
-@keyframes scroll-transition{
+/* @keyframes scroll-transition{
 
     0%{
         background-color: transparent;
@@ -14,16 +14,16 @@
 
     20%{
 
-        background-color:#00005fe3;
+        background-color:#000000e3;
         
     }
 
     100%{
 
-        background-color:#00005fe3;
+        background-color:#000000e3;
         
     }
-}
+} */
 
 .main_nav{
 

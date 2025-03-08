@@ -1,0 +1,68 @@
+.Skills_Mina{
+
+    @apply w-full  relative pb-[50px] 
+}
+
+.Skills_header .s_h h1{
+
+    @apply font-Train text-white text-center animate-pulse
+
+    text-[]
+    sm:text-[]
+    md:text-[]
+    lg:text-[45px]
+
+    md:pt-[90px]
+}
+
+
+.Scrcl {
+
+    @apply absolute  top-[20px] right-[44%] animate-spin-slow opacity-[95%]
+
+    w-[]
+    sm:w-[]
+    md:w-[]
+    lg:w-[200px]
+    xl:w-[]
+}
+
+
+.all_Skills{
+
+    @apply flex  flex-wrap justify-center 
+
+    mt-[8%]
+    gap-[25%]
+}
+
+.sing_skill{
+
+    @apply flex gap-[15px] items-center bg-[#fff]/15 rounded-lg
+    
+    px-[10px]
+    
+    mb-[25px]
+}
+
+.sing_skill img {
+
+    @apply w-[]
+
+    sm:w-[]
+    md:w-[]
+    lg:w-[65px]
+    xl:w-[]
+}
+
+.sing_skill h2{
+
+    @apply font-medium text-white
+    
+    text-[]
+    sm:text-[]
+    md:text-[]
+    lg:text-[19px]
+    xl:text-[]
+}
+

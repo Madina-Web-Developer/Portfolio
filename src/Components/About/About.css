@@ -1,6 +1,6 @@
 .About_Mina{
 
-    @apply  w-full h-screen p-[50px]
+    @apply  w-full min-h-screen  flex items-center pb-[100px] pt-[50px]
 }
 
 .SmallC{
@@ -102,7 +102,7 @@
 
 .main_about p{
 
-    @apply text-[#fff] font-Poppins font-normal leading-loose
+    @apply text-[#9FF7FF] font-Poppins font-normal leading-loose
 
     tracking-[1px]
 

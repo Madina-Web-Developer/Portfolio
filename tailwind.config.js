@@ -11,6 +11,7 @@ export default {
       'Poppins': ["Poppins", 'serif'],
       'vidaloka':["Vidaloka", "serif"],
       'Jenna':["Space Grotesk", "serif"],
+      'Train':["Train One", "serif"],
 
     },
     container: {

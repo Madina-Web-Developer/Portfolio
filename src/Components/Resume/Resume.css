@@ -1,0 +1,72 @@
+.Resume{
+
+    @apply w-full h-screen 
+}
+
+.Resume_head h1{
+
+    @apply font-Volvohk font-semibold text-white text-center
+
+    animate-fade
+
+    text-[]
+    md:text-[]
+    lg:text-[40px]
+    
+
+    pt-[]
+    md:pt-[60px]
+    lg:pt-[60px]
+}
+
+.Resume_head h1 span{
+
+    @apply  text-[#07EAFF]  animate-pulse
+}
+
+
+
+.video{
+
+    @apply flex justify-center items-center
+}
+
+.resume_madina img{
+
+    @apply   z-[10] 
+    
+    mt-[15%]
+    
+    w-[]
+    md:w-[550px]
+    lg:w-[750px]
+}
+
+.pic_Cr{
+
+    @apply absolute top-[0%] right-[20%] z-[-10]
+
+    w-[]
+    md:w-[]
+    lg:w-[200px]
+
+ 
+}
+
+.pic_Cr img{
+
+   @apply animate-spin-slow
+}
+
+
+.youtube {
+
+    @apply absolute top-[58%] right-[46.5%] animate-shake
+
+    w-[]
+    sm:w-[]
+    md:w-[]
+    lg:w-[75px]
+    
+}
+
