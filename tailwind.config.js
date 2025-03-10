@@ -16,6 +16,13 @@ export default {
     },
     container: {
        center: true,
+       padding: {
+        DEFAULT: '18px',
+        sm: '30px',
+        lg: '40px',
+        xl: '50px',
+        '2xl': '50px',
+      },
     },
 
     extend: {

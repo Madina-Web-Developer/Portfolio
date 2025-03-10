@@ -13,7 +13,7 @@ const Counter = () => {
 
             <div className="singel_counter">
               <div className="Cnumber">
-                <h1><CountUp end={30} duration={10}/> <span>+</span></h1>
+                <h1><CountUp end={30} duration={25}/><span>+</span></h1>
               </div>
               <div className="Ctext">
                 <h2>Completed Projects</h2>
@@ -22,7 +22,7 @@ const Counter = () => {
 
             <div className="singel_counter">
               <div className="Cnumber">
-                <h1><CountUp end={30} duration={10} /><span>+</span></h1>
+                <h1><CountUp end={30} duration={25} /><span>+</span></h1>
               </div>
               <div className="Ctext">
                 <h2>Completed Projects</h2>
@@ -32,7 +32,7 @@ const Counter = () => {
 
             <div className="singel_counter">
               <div className="Cnumber">
-                <h1><CountUp end={30} duration={10}/><span>+</span></h1>
+                <h1><CountUp end={30} duration={25}/><span>+</span></h1>
               </div>
               <div className="Ctext">
                 <h2>Completed Projects</h2>

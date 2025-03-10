@@ -5,6 +5,7 @@ import { Link } from 'react-router'
 import AnimatedCoursor from '../CouserEffect/AnimatedCoursor'
 import Aboutimg from '../../assets/Aboutimg.png'
 import SmallC from '../../assets/new.png'
+import { FaArrowRightLong } from 'react-icons/fa6'
 
 
 
@@ -70,7 +71,10 @@ const About = () => {
            </div>
 
            <div className="hireme">
-            <button><Link to={'#'}>Hire me</Link></button>
+           <div className="along flex gap-[10px] items-center">
+           <button><Link to={'#'}><h2>HIRE ME</h2></Link></button>
+           <FaArrowRightLong className='Arrow'/>
+           </div>
            </div>
 
            <div className='SmallC' data-aos="zoom-in"

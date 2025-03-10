@@ -38,7 +38,7 @@
 
 .sing_skill{
 
-    @apply flex gap-[15px] items-center bg-[#fff]/15 rounded-lg
+    @apply flex gap-[15px] items-center bg-gradient-to-r from-[#fff]/10 to-[#000]/15 rounded-sm shadow-[0px_3px_13px_-9px_#5c9aff] hover:shadow-none transition-all duration-[.3s]
     
     px-[10px]
     

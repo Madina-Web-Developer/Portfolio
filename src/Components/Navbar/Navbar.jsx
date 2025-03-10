@@ -2,6 +2,7 @@ import React from 'react'
 import './Navbar.css'
 import { Link } from 'react-router'
 import logo from '../../assets/LOGO.png'
+import { FaArrowRightLong } from 'react-icons/fa6'
 
 const Navbar = () => {
 
@@ -20,12 +21,18 @@ const Navbar = () => {
 
                      <div className="text">
                         <ul>
-                            <li><Link to={'#'} >Home</Link></li>
-                            <li><Link to={'#'} >About</Link></li>
-                            <li><Link to={'#'} >Work</Link></li>
-                            <li><Link to={'#'} >Resume</Link></li>
-                            <li><Link to={'#'} >Skills</Link></li>
-                            <li><Link to={'#'} >Contact</Link></li>
+                            <li><Link to={'#'} >HOME</Link></li>
+                            <li><Link to={'#'} >ABOUT</Link></li>
+                            <li><Link to={'#'} >WORK</Link></li>
+                            <li><Link to={'#'} >RESUME</Link></li>
+                            <li><Link to={'#'} >SKILLS</Link></li>
+                            <li><Link to={'#'} >CONTACT</Link></li>
+                            <div className="talk">
+                            <div className="letstalk flex gap-[6px] items-center">
+                            <button><Link to={'#'}><h2>LETS TALK</h2></Link></button>
+                            <FaArrowRightLong className='Arrow'/>
+                            </div>
+                            </div>
                         </ul>
                      </div>
                 </div>

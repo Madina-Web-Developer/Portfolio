@@ -1,29 +1,25 @@
 .Mina_nav{
 
-    @apply w-full absolute  py-[15px];
+    @apply w-full fixed  pt-[20px] pb-[5px];
 
-    /* animation: scroll-transition;
-    animation-timeline: scroll(y); */
+    animation: scroll-transition;
+    animation-timeline: scroll(y); 
 }
 
-/* @keyframes scroll-transition{
-
-    0%{
+@keyframes scroll-transition {
+    0% {
         background-color: transparent;
     }
-
-    20%{
-
-        background-color:#000000e3;
-        
+    20% {
+        background-color:#00000020; /* Semi-transparent black */
+        backdrop-filter: blur(10px); /* Adjust the blur strength */
     }
-
-    100%{
-
-        background-color:#000000e3;
-        
+    100% {
+        background-color: #00000020;
+        backdrop-filter: blur(15px);
     }
-} */
+}
+
 
 .main_nav{
 
@@ -41,11 +37,48 @@
     
     gap-[55px] font-Jenna font-semibold
     
-    text-[19px] tracking-wide text-[#dfdede]
+    text-[18px] tracking-wide text-[#dfdede]
 }
 
 .text ul li a{
 
     @apply hover:text-[#0de7fb] transition-all duration-[.3s]
 }
+
+
+.talk{
+
+    @apply bg-[#00def2] py-[8px] px-[15px] w-fit 
+    
+    hover:bg-[#000] hover:text-white 
+
+    border-[1px]   text-[#000]  rounded-full
+
+    active:scale-[1.1] transition-all duration-[.4s] font-Jenna
+
+ }  
+ 
+ 
+ .talk   .letstalk button a h2{
+
+    @apply font-Jenna font-bold
+
+
+    text-[]
+    sm:text-[]
+    md:text-[]
+    lg:text-[15px]
+ }
+
+
+ .letstalk .Arrow{
+
+    @apply animate-pulse
+    
+    text-[]
+    sm:text-[]
+    md:text-[]
+    lg:text-[15px] 
+ }
+
 

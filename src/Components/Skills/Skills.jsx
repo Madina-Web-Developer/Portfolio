@@ -1,7 +1,7 @@
 import React from 'react'
 import './Skills.css'
 import Skillsbg from '../../assets/SkillsBG.png'
-import SkillC from '../../assets/new.png'
+import Skill from '../../assets/new.png'
 import react from '../../assets/React.png'
 import tailwind from '../../assets/Tailwind.png'
 import redux from '../../assets/Redux.png'
@@ -22,7 +22,12 @@ const Skills = () => {
 
       <div className="Skills_header">
         <div className="Scrcl">
-            <img src={SkillC} alt="skillcircle"/>
+
+            <div className='m' data-aos="zoom-in"
+          data-aos-duration="1500">
+            <img src={Skill} alt="skillcircle"/>
+
+            </div>
         </div>
         <div className="s_h">
         <h1>SKILLS</h1>
@@ -30,7 +35,7 @@ const Skills = () => {
       </div>
 
       <div className="all_Skills" data-aos="fade-up"
-     data-aos-duration="1000">
+     data-aos-duration="1800">
 
         <div className="one_side">
 

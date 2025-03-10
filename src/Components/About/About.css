@@ -60,7 +60,7 @@
 
     @apply bg-white/20 inline-block px-[8px]  rounded-md
 
-    mt-[8%]
+    mt-[6%]
 }
 
 
@@ -120,3 +120,41 @@
     border-[1px] border-[#303030]
 }
 
+
+.hireme{
+
+    @apply bg-[#0de7fb] py-[7px] px-[15px] w-fit
+
+    animate-wiggle animate-infinite hover:animate-none
+    
+    hover:bg-[#000] hover:text-white hover:border
+
+    border-[1px]   text-[#000]  rounded-md
+
+    active:scale-[1.1] transition-all duration-[.4s] font-Jenna
+
+    mt-[35px] 
+ }  
+ 
+ 
+ .hireme  .along button a h2{
+
+    @apply font-Jenna font-bold
+
+
+    text-[]
+    sm:text-[]
+    md:text-[]
+    lg:text-[18px]
+ }
+
+
+.along .Arrow{
+
+    @apply animate-pulse
+    
+    text-[]
+    sm:text-[]
+    md:text-[]
+    lg:text-[20px] 
+ }

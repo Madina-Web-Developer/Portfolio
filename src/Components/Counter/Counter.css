@@ -19,12 +19,12 @@
     ml-[80px]
     text-[]
     md:text-[]
-    lg:text-[38px]
+    lg:text-[35px]
 }
 
 .singel_counter .Cnumber h1 span{
 
-    @apply text-[#9FF7FF]
+    @apply text-[#fff]
 }
 
 .singel_counter .Ctext h2 {
@@ -33,5 +33,5 @@
 
     text-[]
     md:text-[]
-    lg:text-[28px]
+    lg:text-[25px]
 }

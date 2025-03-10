@@ -1,0 +1,48 @@
+.Mina_portfolio{
+
+    @apply w-full h-screen
+}
+
+.P_header{
+
+    @apply relative z-[10]
+}
+
+.P_header h1{
+
+    @apply text-white text-center font-Jenna font-bold 
+
+
+    
+    text-[]
+    md:text-[]
+    lg:text-[38px]
+    
+
+    pt-[]
+    md:pt-[60px]
+    lg:pt-[60px]
+}
+
+.P_header h1 span{
+
+    @apply  text-[#07EAFF]  animate-pulse
+}
+
+
+.Port_C{
+
+    @apply absolute top-[-5%] right-[35%] z-[-10] 
+
+    w-[]
+    md:w-[]
+    lg:w-[180px]
+
+ 
+}
+
+.Port_C img{
+
+   @apply animate-spin-slow opacity-[90%]
+}
+

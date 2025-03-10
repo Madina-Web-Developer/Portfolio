@@ -5,13 +5,13 @@
 
 .Resume_head h1{
 
-    @apply font-Volvohk font-semibold text-white text-center
+    @apply font-Jenna font-semibold text-white text-center
 
     animate-fade
 
     text-[]
     md:text-[]
-    lg:text-[40px]
+    lg:text-[38px]
     
 
     pt-[]
@@ -31,7 +31,7 @@
     @apply flex justify-center items-center
 }
 
-.resume_madina img{
+.resume_madina .Resume_video iframe{
 
     @apply   z-[10] 
     
@@ -39,12 +39,18 @@
     
     w-[]
     md:w-[550px]
-    lg:w-[750px]
+    lg:w-[700px]
+    xl:w-[750px]
+
+    h-[]
+    sm:h-[]
+    md:h-[]
+    lg:h-[400px]
 }
 
 .pic_Cr{
 
-    @apply absolute top-[0%] right-[20%] z-[-10]
+    @apply absolute top-[5%] right-[18%] z-[-10]
 
     w-[]
     md:w-[]
@@ -69,4 +75,43 @@
     lg:w-[75px]
     
 }
+
+
+
+.RHireme{
+
+    @apply bg-[#0de7fb] py-[7px] px-[15px] w-fit
+    
+    hover:bg-[#000] hover:text-white hover:border
+
+    border-[1px]   text-[#000]  rounded-md
+
+    active:scale-[1.1] transition-all duration-[.4s] font-Jenna
+
+    lg:mt-[80px] m-auto
+ }  
+ 
+ 
+ .RHireme  .reme button a h2{
+
+    @apply font-Jenna font-bold
+
+
+    text-[]
+    sm:text-[]
+    md:text-[]
+    lg:text-[18px]
+ }
+
+
+ .reme .Arrow{
+
+    @apply animate-pulse
+    
+    text-[]
+    sm:text-[]
+    md:text-[]
+    lg:text-[20px] 
+ }
+
 
