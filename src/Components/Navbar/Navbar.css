@@ -1,21 +1,22 @@
 .Mina_nav{
 
-    @apply w-full fixed  pt-[20px] pb-[5px];
+    @apply w-full absolute  pt-[20px] pb-[5px];
 
     animation: scroll-transition;
     animation-timeline: scroll(y); 
 }
+
 
 @keyframes scroll-transition {
     0% {
         background-color: transparent;
     }
     20% {
-        background-color:#00000020; /* Semi-transparent black */
+        background-color: #0000002d; /* Semi-transparent black */
         backdrop-filter: blur(10px); /* Adjust the blur strength */
     }
     100% {
-        background-color: #00000020;
+        background-color: #0000002d;
         backdrop-filter: blur(15px);
     }
 }

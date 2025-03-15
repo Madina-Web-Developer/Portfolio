@@ -32,11 +32,11 @@
 
 .Port_C{
 
-    @apply absolute top-[-5%] right-[35%] z-[-10] 
+    @apply absolute top-[5%] right-[37%] z-[-10] 
 
     w-[]
     md:w-[]
-    lg:w-[180px]
+    lg:w-[150px]
 
  
 }

@@ -33,7 +33,7 @@
 
 .resume_madina .Resume_video iframe{
 
-    @apply   z-[10] 
+    @apply   z-[10]  rounded-lg
     
     mt-[15%]
     

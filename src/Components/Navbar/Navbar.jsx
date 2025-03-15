@@ -11,7 +11,7 @@ const Navbar = () => {
     <>
     <nav>
 
-        <div className="Mina_nav z-[999] ">
+        <div className="Mina_nav z-[10000] ">
             <div className="container">
 
                 <div className="main_nav">
