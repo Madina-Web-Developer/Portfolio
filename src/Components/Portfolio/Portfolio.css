@@ -46,3 +46,42 @@
    @apply animate-spin-slow opacity-[90%]
 }
 
+
+.Recent_work h2{
+
+    @apply font-Jenna font-semibold text-white
+
+    text-[]
+    sm:text-[]
+    md:text-[]
+    lg:text-[30px]
+
+    mt-[]
+    sm:mt-[]
+    md:mt-[]
+    lg:mt-[15px]
+
+}
+
+.about_work{
+
+    @apply bg-white/20 inline-block px-[8px]  rounded-sm
+
+    mt-[2%]
+}
+
+.about_work h1{
+
+    @apply text-white  font-Volvohk tracking-[2px] font-normal
+
+    md:text-[10px] 
+
+    lg:text-[20px]
+
+   
+}
+
+.about_work h1 span{
+
+    @apply text-[#07EAFF]
+}

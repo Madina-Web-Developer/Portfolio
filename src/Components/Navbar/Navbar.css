@@ -1,6 +1,6 @@
 .Mina_nav{
 
-    @apply w-full absolute  pt-[20px] pb-[5px];
+    @apply w-full fixed  pt-[20px] pb-[8px];
 
     animation: scroll-transition;
     animation-timeline: scroll(y); 
@@ -12,11 +12,11 @@
         background-color: transparent;
     }
     20% {
-        background-color: #0000002d; /* Semi-transparent black */
+        background-color: #2828282d; /* Semi-transparent black */
         backdrop-filter: blur(10px); /* Adjust the blur strength */
     }
     100% {
-        background-color: #0000002d;
+        background-color: #2828282d;
         backdrop-filter: blur(15px);
     }
 }
