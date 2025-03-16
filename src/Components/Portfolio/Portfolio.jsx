@@ -12,11 +12,6 @@ const Portfolio = () => {
         <div className="P_header">
 
             <h1>MY <span> PORTFOLIO</span></h1>
-          
-            <div className="Port_C"data-aos="zoom-in"
-          data-aos-duration="1500">
-                <img src={PCricle} alt="PCircle" />
-            </div>
         </div>
         </div>
 
