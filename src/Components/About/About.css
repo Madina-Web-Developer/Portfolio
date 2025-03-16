@@ -58,7 +58,7 @@
 
 .about_me{
 
-    @apply bg-white/20 inline-block px-[8px]  rounded-md
+    @apply bg-white/20 inline-block px-[8px]  rounded-sm
 
     mt-[6%]
 }

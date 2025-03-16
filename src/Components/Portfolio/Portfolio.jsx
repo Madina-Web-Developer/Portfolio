@@ -10,9 +10,14 @@ const Portfolio = () => {
         <div className="container">
 
         <div className="P_header">
-
             <h1>MY <span> PORTFOLIO</span></h1>
         </div>
+
+        <div className="about_me">
+           <h1>My <span>Work</span></h1>
+           </div>
+
+
         </div>
 
     </section>
