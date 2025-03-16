@@ -1,7 +1,7 @@
 import React from 'react'
 import './Portfolio.css'
 import Pbg from '../../assets/PortfolioBG.png'
-import PCricle from '../../assets/new.png'
+
 
 const Portfolio = () => {
   return (
