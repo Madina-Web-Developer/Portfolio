@@ -10,20 +10,21 @@
     text-[]
     sm:text-[]
     md:text-[]
-    lg:text-[45px]
+    lg:text-[36px]
 
-    md:pt-[90px]
+    md:pt-[75px]
+    
 }
 
 
 .Scrcl {
 
-    @apply absolute  top-[20px] right-[44%] animate-spin-slow opacity-[95%]
+    @apply absolute  top-[20px] right-[45%] animate-spin-slow opacity-[95%]
 
     w-[]
     sm:w-[]
     md:w-[]
-    lg:w-[200px]
+    lg:w-[160px]
     xl:w-[]
 }
 
@@ -40,7 +41,7 @@
 
     @apply flex gap-[15px] items-center bg-gradient-to-r from-[#fff]/10 to-[#000]/15 rounded-sm shadow-[0px_3px_13px_-9px_#5c9aff] hover:shadow-none transition-all duration-[.3s]
     
-    px-[10px]
+    px-[10px] py-[10px]
     
     mb-[25px]
 }
@@ -51,7 +52,7 @@
 
     sm:w-[]
     md:w-[]
-    lg:w-[65px]
+    lg:w-[40px]
     xl:w-[]
 }
 
@@ -66,3 +67,16 @@
     xl:text-[]
 }
 
+
+.examp h3{
+
+    @apply text-gray-300 font-Jenna font-normal
+
+    text-[]
+    sm:text-[]
+    md:text-[]
+    lg:text-[15px]
+
+    mt-[5px]
+    
+}

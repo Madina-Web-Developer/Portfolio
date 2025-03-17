@@ -41,27 +41,42 @@ const Skills = () => {
 
         <div className="sing_skill">
             <img className='react' src={react} alt="react" />
+            <div className="examp">
             <h2>React</h2>
+            <h3>Proficient in building dynamic and interactive user interfaces using React.</h3>
+            </div>
         </div>
 
         <div className="sing_skill">
             <img className='redux' src={redux} alt="react" />
+            <div className="examp">
             <h2>Redux</h2>
+            <h3>Experienced in managing complex application states efficiently with Redux.</h3>
+            </div>
         </div>
 
         <div className="sing_skill">
             <img className='Tailwindcss' src={js} alt="react" />
-            <h2>Java Script</h2>
+            <div className="examp">
+            <h2>JavaScript</h2>
+            <h3>Skilled in JavaScript for developing dynamic and interactive web applications.</h3>
+            </div>
         </div>
 
         <div className="sing_skill">
             <img className='Tailwindcss' src={tailwind} alt="react" />
-            <h2>Tailwind Css</h2>
+            <div className="examp">
+            <h2>Tailwind CSS</h2>
+            <h3>Proficient in using Tailwind CSS for rapid and responsive UI development.</h3>
+            </div>
         </div>
 
         <div className="sing_skill">
             <img className='Tailwindcss' src={user} alt="react" />
+            <div className="examp">
             <h2>User Authentication</h2>
+            <h3>Experienced in implementing secure user authentication and access control systems.</h3>
+            </div>
         </div>
        
 
@@ -71,12 +86,18 @@ const Skills = () => {
 
         <div className="sing_skill">
             <img className='react' src={html} alt="react" />
+            <div className="examp">
             <h2>HTML</h2>
+            <h3>Proficient in creating structured and accessible web content using HTML.</h3>
+            </div>
         </div>
 
         <div className="sing_skill">
             <img className='redux' src={css} alt="react" />
+            <div className="examp">
             <h2>CSS</h2>
+            <h3>Skilled in designing visually appealing and responsive web layouts with CSS</h3>
+            </div>
         </div>
 
         <div className="sing_skill">
