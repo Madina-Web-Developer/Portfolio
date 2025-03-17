@@ -34,11 +34,12 @@ const Skills = () => {
         </div>
       </div>
 
-      <div className="all_Skills" data-aos="fade-up"
-     data-aos-duration="1800">
+      <div className="all_Skills">
 
         <div className="one_side">
-
+        
+        <div data-aos="fade-up"
+        data-aos-duration="1000">
         <div className="sing_skill">
             <img className='react' src={react} alt="react" />
             <div className="examp">
@@ -46,7 +47,10 @@ const Skills = () => {
             <h3>Proficient in building dynamic and interactive user interfaces using React.</h3>
             </div>
         </div>
+        </div>
 
+        <div data-aos="fade-up"
+        data-aos-duration="1000">
         <div className="sing_skill">
             <img className='redux' src={redux} alt="react" />
             <div className="examp">
@@ -54,7 +58,10 @@ const Skills = () => {
             <h3>Experienced in managing complex application states efficiently with Redux.</h3>
             </div>
         </div>
+        </div>
 
+        <div data-aos="fade-up"
+        data-aos-duration="1000">
         <div className="sing_skill">
             <img className='Tailwindcss' src={js} alt="react" />
             <div className="examp">
@@ -62,7 +69,10 @@ const Skills = () => {
             <h3>Skilled in JavaScript for developing dynamic and interactive web applications.</h3>
             </div>
         </div>
-
+        </div>
+        
+        <div data-aos="fade-up"
+        data-aos-duration="1000">
         <div className="sing_skill">
             <img className='Tailwindcss' src={tailwind} alt="react" />
             <div className="examp">
@@ -70,7 +80,10 @@ const Skills = () => {
             <h3>Proficient in using Tailwind CSS for rapid and responsive UI development.</h3>
             </div>
         </div>
-
+        </div>
+        
+        <div data-aos="fade-up"
+        data-aos-duration="1000">
         <div className="sing_skill">
             <img className='Tailwindcss' src={user} alt="react" />
             <div className="examp">
@@ -78,12 +91,15 @@ const Skills = () => {
             <h3>Experienced in implementing secure user authentication and access control systems.</h3>
             </div>
         </div>
+        </div>
        
 
         </div>
 
         <div className="two_side">
-
+        
+        <div data-aos="fade-up"
+        data-aos-duration="1000">
         <div className="sing_skill">
             <img className='react' src={html} alt="react" />
             <div className="examp">
@@ -91,7 +107,10 @@ const Skills = () => {
             <h3>Proficient in creating structured and accessible web content using HTML.</h3>
             </div>
         </div>
+        </div>
 
+        <div data-aos="fade-up"
+        data-aos-duration="1000">
         <div className="sing_skill">
             <img className='redux' src={css} alt="react" />
             <div className="examp">
@@ -99,20 +118,40 @@ const Skills = () => {
             <h3>Skilled in designing visually appealing and responsive web layouts with CSS</h3>
             </div>
         </div>
+        </div>
 
+
+        <div data-aos="fade-up"
+        data-aos-duration="1000">
         <div className="sing_skill">
             <img className='Tailwindcss' src={firebase} alt="react" />
+            <div className="examp">
             <h2>Firebase</h2>
+            <h3>Skilled in using Firebase for real-time database, authentication, and hosting solutions.</h3>
+            </div>
+        </div>
         </div>
 
+        <div data-aos="fade-up"
+        data-aos-duration="1000">
         <div className="sing_skill">
             <img className='Tailwindcss' src={data} alt="react" />
+            <div className="examp">
             <h2>Realtime Database</h2>
+            <h3>Experienced in handling real-time data synchronization using Firebase Realtime Database.</h3>
+            </div>
         </div>
-
+        </div>
+ 
+        <div data-aos="fade-up"
+        data-aos-duration="1000">
         <div className="sing_skill">
             <img className='Tailwindcss' src={api} alt="react" />
-            <h2>API Intregation</h2>
+            <div className="examp">
+            <h2>API Integration</h2>
+            <h3>Proficient in integrating and managing external APIs for seamless application functionality.</h3>
+            </div>
+        </div>
         </div>
 
         </div>
@@ -120,10 +159,15 @@ const Skills = () => {
         
 
       </div>
-
-      <div className="sing_skill m-auto w-fit items-center ">
+      <div data-aos="fade-up"
+        data-aos-duration="1000">
+      <div className="sing_skill">
             <img className='Bootstrap' src={Bootstrap} alt="react" />
+            <div className="examp">
             <h2>Bootstrap</h2>
+            <h3>Experienced in utilizing Bootstrap for mobile-first and responsive web design.</h3>
+            </div>
+        </div>
         </div>
 
    </div>
