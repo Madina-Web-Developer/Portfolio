@@ -3,18 +3,27 @@
     @apply w-full  relative pb-[50px] 
 }
 
-.Skills_header .s_h h1{
+.s_h h1{
 
-    @apply font-Train text-white text-center animate-pulse
+    @apply text-white text-center font-Jenna font-bold 
 
-    text-[]
-    sm:text-[]
-    md:text-[]
-    lg:text-[36px]
 
-    md:pt-[75px]
     
+    text-[]
+    md:text-[]
+    lg:text-[38px]
+    
+
+    pt-[]
+    md:pt-[60px]
+    lg:pt-[60px]
 }
+
+.s_h h1 span{
+
+    @apply  text-[#07EAFF]  animate-pulse
+}
+
 
 
 .Scrcl {
@@ -58,7 +67,7 @@
 
 .sing_skill h2{
 
-    @apply font-medium text-white
+    @apply font-medium text-[#47e3ff]
     
     text-[]
     sm:text-[]

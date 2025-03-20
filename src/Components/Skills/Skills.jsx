@@ -23,14 +23,9 @@ const Skills = () => {
       <div className="Skills_header">
         <div className="Scrcl">
 
-            <div className='m' data-aos="zoom-in"
-          data-aos-duration="1500">
-            <img src={Skill} alt="skillcircle"/>
-
-            </div>
         </div>
         <div className="s_h">
-        <h1>SKILLS</h1>
+        <h1>MY <span>SKILLS</span></h1>
         </div>
       </div>
 

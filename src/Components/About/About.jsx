@@ -59,9 +59,9 @@ const About = () => {
             <p>I am a dedicated and professional website designer and developer with a strong focus on creating user-friendly and modern responsive websites. I am a strong communicator and problem solver. I approach to clean code structure and ability to work efficiently under pressure make you a reliable choice for clients looking to enhance their projects.
              <br />
              <br />
-            ✅ I am Available to work 24/7 days a Week.
-            ✅ I am a strong communicator.
-            ✅ I am a focused problem solver.
+            ✅ Available to work 24/7 days a Week.
+            ✅ A strong communicator.
+            ✅ A focused problem solver.
             ✅ I will provide daily updates on your projects and progress.
             ✅ Fast Turn Around & Can go under Pressure.
             ✅Clean code structure.

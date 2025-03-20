@@ -102,7 +102,7 @@
 
 .main_about p{
 
-    @apply text-[#9FF7FF] font-Poppins font-normal leading-loose
+    @apply text-[#fff] font-Poppins font-normal leading-loose
 
     tracking-[1px]
 
