@@ -5,6 +5,7 @@ import Counter from '../Counter/Counter'
 import Resume from '../Resume/Resume'
 import Skills from '../Skills/Skills'
 import Portfolio from '../Portfolio/Portfolio'
+import Com from '../Communication/Com'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Resume/>
       <Skills/>
       <Portfolio/>
+      <Com/>
     </div>
   )
 }
