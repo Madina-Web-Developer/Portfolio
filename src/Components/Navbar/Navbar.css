@@ -12,11 +12,11 @@
         background-color: transparent;
     }
     20% {
-        background-color: #55555545; /* Semi-transparent black */
+        background-color: #6a6a6a45; /* Semi-transparent black */
         backdrop-filter: blur(14px); /* Adjust the blur strength */
     }
     100% {
-        background-color: #4b4b4b4f;
+        background-color: #6a6a6a45;
         backdrop-filter: blur(18px);
     }
 }
