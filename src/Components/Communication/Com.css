@@ -28,27 +28,28 @@
 
 .mina_img img{
 
-    @apply absolute 
+    @apply 
 
     w-[]
     sm:w-[]
     md:w-[]
     lg:w-[280px]
-    xl:w-[320px]
+    xl:w-[350px]
     
-    top-[-15%]
-    left-[4%]
+    lg:mt-[]
+    xl:mt-[-40%]
+    
 }
 
 .contact_box{
 
-    @apply bg-[rgb(0,51,113)] rounded-[15px] relative border-[1px] border-gray-500
+    @apply bg-[rgb(0,51,113)] rounded-[15px] flex border-[1px] border-gray-500
 
     w-full
     h-[600px]
 
-    px-[20px]
-    py-[20px]
+    px-[40px]
+    py-[30px]
 
     mt-[5%]
 }
@@ -93,32 +94,12 @@
     text-[]
     sm:text-[]
     md:text-[]
-    lg:text-[16px]
-
-}
-
-.github h2{
-
-    @apply font-Jenna text-gray-400 font-semibold tracking-[2px]
-
-    text-[]
-    sm:text-[]
-    md:text-[]
     lg:text-[15px]
 
 }
 
-.github h3{
 
-    @apply font-Jenna text-gray-200 font-bold tracking-[1px]
 
-    text-[]
-    sm:text-[]
-    md:text-[]
-    lg:text-[14px]
-
-   
-}
 
 .c_icon{
 
@@ -127,6 +108,23 @@
     transition-all duration-[.3s]
 
     text-[38px] text-white
+}
+
+
+.right_commu{
+
+    @apply 
+
+    ml-[]
+    sm:ml-[]
+    md:ml-[]
+    lg:ml-[2%]
+    xl:ml-[2%]
+}
+
+.right_commu h5{
+
+    @apply  text-[]
 }
 
 

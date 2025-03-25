@@ -19,28 +19,36 @@ const Com = () => {
 
 
         <div className="contact_box">
+
           <div className="mina_img">
             <img src={MinaimgC} alt="contactimg" />
+            <div className="left">
+
+              <div className="all_icons_c">
+                <h2>WRITE AN E-MAIL</h2>
+                <h3>developermadina761@gmail.com</h3>
+              </div>
+
+                  <div className="contact_icons">
+                  <Link to={'https://www.facebook.com/camelia.bin.josie/'} ><CiFacebook  className='c_icon' /></Link>
+                  <Link to={'https://www.linkedin.com/in/madina-akter-mina-326374346/'} ><CiLinkedin  className='c_icon' /></Link>
+                  <Link to={'#'}><AiOutlineGlobal className='c_icon'/></Link>
+                  <Link to={'https://github.com/Madina-Web-Developer'}><VscGithub className='c_icon'/></Link>
+                  </div>
+
+
+            </div>
           </div>
 
-          <div className="left">
+        
+          <div className="right_commu">
+          
+         <h5>Let’s Discuss Your Project</h5>
+         <p>Always available for freelancing if the right project comes along, open to discussing new projects, creative ideas or opportunities to be part of your vision in real, so feel free to get in touch with me</p>
 
-          <div className="all_icons_c">
-            <h2>WRITE AN E-MAIL</h2>
-            <h3>developermadina761@gmail.com</h3>
-          </div>
-
-          <div className="contact_icons">
-          <Link to={'https://www.facebook.com/camelia.bin.josie/'} ><CiFacebook  className='c_icon' /></Link>
-          <Link to={'https://www.linkedin.com/in/madina-akter-mina-326374346/'} ><CiLinkedin  className='c_icon' /></Link>
-          <Link to={'#'}><AiOutlineGlobal className='c_icon'/></Link>
-          <Link to={'https://github.com/Madina-Web-Developer'}><VscGithub className='c_icon'/></Link>
-          </div>
-      
+          <div className="box_2">
 
           </div>
-
-          <div className="right">
 
           </div>
           
