@@ -2,6 +2,11 @@ import React from 'react'
 import './Com.css'
 import Contactimg from '../../assets/Com.png'
 import MinaimgC from '../../assets/Contactimg.png'
+import { CiFacebook, CiLinkedin } from 'react-icons/ci'
+import { Link } from 'react-router'
+import { AiOutlineGlobal } from 'react-icons/ai'
+import { VscGithub } from 'react-icons/vsc'
+
 
 const Com = () => {
   return (
@@ -12,36 +17,37 @@ const Com = () => {
         <h1>GET IN <span> TOUCH</span></h1>
         </div>
 
+
         <div className="contact_box">
           <div className="mina_img">
             <img src={MinaimgC} alt="contactimg" />
           </div>
-          
+
+          <div className="left">
+
           <div className="all_icons_c">
             <h2>WRITE AN E-MAIL</h2>
             <h3>developermadina761@gmail.com</h3>
           </div>
 
-          <div className="github">
-          <h2>GITHUB ACCOUNT</h2>
-          <h3>https://github.com/Madina-Web-Developer</h3>
-          </div>
-
           <div className="contact_icons">
-            
+          <Link to={'https://www.facebook.com/camelia.bin.josie/'} ><CiFacebook  className='c_icon' /></Link>
+          <Link to={'https://www.linkedin.com/in/madina-akter-mina-326374346/'} ><CiLinkedin  className='c_icon' /></Link>
+          <Link to={'#'}><AiOutlineGlobal className='c_icon'/></Link>
+          <Link to={'https://github.com/Madina-Web-Developer'}><VscGithub className='c_icon'/></Link>
           </div>
-        
-
-          <div className="left_cont">
-            
-          </div>
-
-          <div className="right_contact">
+      
 
           </div>
+
+          <div className="right">
+
+          </div>
+          
          
 
         </div>
+
 
       </div>
     </section>

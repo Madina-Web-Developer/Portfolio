@@ -33,16 +33,16 @@
     w-[]
     sm:w-[]
     md:w-[]
-    lg:w-[]
-    xl:w-[300px]
+    lg:w-[280px]
+    xl:w-[320px]
     
-    top-[-20%]
+    top-[-15%]
     left-[4%]
 }
 
 .contact_box{
 
-    @apply bg-[#115284e4] rounded-[15px] relative 
+    @apply bg-[rgb(0,51,113)] rounded-[15px] relative border-[1px] border-gray-500
 
     w-full
     h-[600px]
@@ -59,17 +59,18 @@
 
     sm:mt-[]
     md:mt-[]
-    lg:mt-[15%]
+    lg:mt-[24%]
 
     ml-[3%]
 }
-.github{
 
-    @apply mt-[]
+.contact_icons{
+
+    @apply mt-[] flex gap-[20px]
 
     sm:mt-[]
     md:mt-[]
-    lg:mt-[4%]
+    lg:mt-[7%]
 
     ml-[3%]
 }
@@ -116,6 +117,16 @@
     md:text-[]
     lg:text-[14px]
 
+   
+}
+
+.c_icon{
+
+    @apply hover:text-[rgb(157,245,253)] 
+
+    transition-all duration-[.3s]
+
+    text-[38px] text-white
 }
 
 
