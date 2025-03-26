@@ -52,7 +52,7 @@
     px-[40px]
     py-[30px]
 
-    mt-[5%]
+    mt-[3%]
 }
 
 .all_icons_c{
@@ -61,9 +61,10 @@
 
     sm:mt-[]
     md:mt-[]
-    lg:mt-[24%]
+    lg:mt-[50%]
 
     ml-[3%]
+   
 }
 
 .contact_icons{
@@ -86,6 +87,8 @@
     md:text-[]
     lg:text-[15px]
 
+ 
+
 }
 
 .all_icons_c h3{
@@ -96,6 +99,8 @@
     sm:text-[]
     md:text-[]
     lg:text-[15px]
+
+    mb-[50%]
 
 }
 
@@ -148,6 +153,16 @@
     md:text-[]
     lg:text-[14px]
     xl:text-[16px]
+}
+
+.box_2{
+
+    @apply bg-slate-500   w-full rounded-md
+
+    p-[10px]
+  
+    mt-[30px]
+    h-[430px]
 }
 
 

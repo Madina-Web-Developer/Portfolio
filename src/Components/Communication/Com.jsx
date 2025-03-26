@@ -36,7 +36,6 @@ const Com = () => {
                   <Link to={'https://github.com/Madina-Web-Developer'}><VscGithub className='c_icon'/></Link>
                   </div>
 
-
             </div>
           </div>
 
