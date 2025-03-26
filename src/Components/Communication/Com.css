@@ -34,10 +34,11 @@
     sm:w-[]
     md:w-[]
     lg:w-[280px]
-    xl:w-[350px]
+    xl:w-[380px]
     
     lg:mt-[]
     xl:mt-[-40%]
+    
     
 }
 
@@ -124,7 +125,27 @@
 
 .right_commu h5{
 
-    @apply  text-[]
+    @apply  text-[rgb(140,245,255)] font-Jenna font-semibold
+
+    text-center
+    
+    text-[]
+    sm:text-[]
+    md:text-[]
+    lg:text-[20px]
+    xl:text-[28px]
+}
+.right_commu p{
+
+    @apply text-gray-200 font-Jenna font-medium
+
+    text-center
+    
+    text-[]
+    sm:text-[]
+    md:text-[]
+    lg:text-[14px]
+    xl:text-[16px]
 }
 
 
