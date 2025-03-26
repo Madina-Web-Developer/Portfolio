@@ -44,7 +44,7 @@ const Com = () => {
           <div className="right_commu">
           
          <h5>Let’s Discuss Your Project</h5>
-         <p>Always available for freelancing if the right project comes along, open to discussing new projects, creative ideas or opportunities to be part of your vision in real, so feel free to get in touch with me</p>
+         <p>Always available for freelancing if the right project comes along, open to discussing new projects, creative ideas or opportunities to be part of your vision in real, so feel free to get in touch with me.</p>
 
           <div className="box_2">
 

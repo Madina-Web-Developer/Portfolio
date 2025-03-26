@@ -34,7 +34,7 @@
     sm:w-[]
     md:w-[]
     lg:w-[280px]
-    xl:w-[380px]
+    xl:w-[400px]
     
     lg:mt-[]
     xl:mt-[-40%]
@@ -109,6 +109,8 @@
     transition-all duration-[.3s]
 
     text-[38px] text-white
+
+    
 }
 
 
@@ -125,7 +127,7 @@
 
 .right_commu h5{
 
-    @apply  text-[rgb(140,245,255)] font-Jenna font-semibold
+    @apply  text-[#95f5fe] font-Jenna font-semibold
 
     text-center
     
@@ -137,9 +139,10 @@
 }
 .right_commu p{
 
-    @apply text-gray-200 font-Jenna font-medium
+    @apply text-gray-100 font-Jenna font-normal
 
-    
+    text-center
+
     text-[]
     sm:text-[]
     md:text-[]
