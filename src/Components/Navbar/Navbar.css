@@ -49,11 +49,11 @@
 
 .talk{
 
-    @apply bg-[#00def2] py-[8px] px-[15px] w-fit 
+    @apply bg-[#00def2] py-[7px] px-[10px] w-fit 
     
     hover:bg-[#000] hover:text-white 
 
-    border-[1px]   text-[#000]  rounded-full
+    border-[1px]   text-[#000]  rounded-[8px]
 
     active:scale-[1.1] transition-all duration-[.4s] font-Jenna
 
