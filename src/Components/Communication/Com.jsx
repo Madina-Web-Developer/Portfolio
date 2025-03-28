@@ -42,10 +42,39 @@ const Com = () => {
         
           <div className="right_commu">
           
-         <h5>Let’s Discuss Your Project</h5>
+         <h5>Let’s Discuss Your Project !</h5>
          <p>Always available for freelancing if the right project comes along, open to discussing new projects, creative ideas or opportunities to be part of your vision in real, so feel free to get in touch with me.</p>
 
           <div className="box_2">
+
+            <div className="all_f_part">
+
+            <div className="Com_name_part">
+           <h6>FIRST NAME</h6>
+              <input className='same' type="text" placeholder='Name *' />
+            </div>
+
+            <div className="email_part">
+             <h6>YOUR EMAIL</h6>
+              <input className='same' type="mail" placeholder='Email *' />
+            </div>
+
+
+            </div>
+
+            <div className="subject">
+            <h6>SUBJECT</h6>
+            <input className='subject_input' type="text" placeholder='Subject *' />
+            </div>
+
+            <div className="message">
+              <h6>YOUR MESSAGE</h6>
+              <textarea className='Message_textarea' name="Message" id="message" placeholder='Your Message *'></textarea>
+            </div>
+
+            <div className="box_button">
+              <button className='box2_b' type='submit'>Send Message</button>
+            </div>
 
           </div>
 

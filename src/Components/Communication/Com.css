@@ -158,11 +158,109 @@
 .box_2{
 
     @apply bg-[#082f54]   w-full rounded-md
-
-    p-[10px]
+    
+    px-[10px]
+    lg:px-[20px]
+    xl:px-[25px]
+    py-[5px]
+    lg:py-[20px]
+    xl:py-[25px]
   
     mt-[30px]
-    h-[430px]
+    
+    h-[200px]
+    lg:h-[430px]
 }
+.box_2 .all_f_part {
+
+    @apply flex justify-between
+
+}
+.box_2  h6 {
+
+    @apply text-gray-200 font-Jenna tracking-[1px]
+
+    text-[]
+    sm:text-[]
+    md:text-[]
+    lg:text-[13px] 
+
+    mb-[3px]
+    lg:mb-[5px]
+}
+.box_2 .all_f_part .same {
+
+    @apply bg-[#1850849c] border-[1px] border-gray-600 lg:rounded-[4px] rounded-[2px] outline-none hover:border-gray-400 transition-all duration-[.3s] text-gray-100 font-Jenna tracking-[1px] 
+    
+    w-[150px]
+    sm:w-[]
+    md:w-[]
+    lg:w-[400px]
+    xl:w-[480px]
+
+    text-[]
+    sm:text-[]
+    md:text-[]
+    lg:text-[15px] 
+    
+    py-[4px]
+    lg:py-[7px]
+    px-[4px]
+    lg:px-[7px]
+
+    mb-[3px]
+    lg:mb-[25px] 
+}
+
+
+.box_2 .subject_input {
+
+    @apply bg-[#1850849c] border-[1px] border-gray-600 lg:rounded-[4px] rounded-[2px] outline-none hover:border-gray-400 transition-all duration-[.3s] text-gray-100 font-Jenna tracking-[1px] 
+    
+    w-full
+    text-[]
+    sm:text-[]
+    md:text-[]
+    lg:text-[15px] 
+    
+    py-[4px]
+    lg:py-[7px]
+    px-[4px]
+    lg:px-[7px]
+
+    mb-[3px]
+    lg:mb-[25px] 
+}
+.box_2 .Message_textarea {
+
+    @apply bg-[#1850849c] border-[1px] border-gray-600 lg:rounded-[4px] rounded-[2px] outline-none hover:border-gray-400 transition-all duration-[.3s] text-gray-100 font-Jenna overflow-y-scroll 
+    
+    w-full
+    h-[60px]
+    sm:h-[]
+    md:h-[]
+    lg:h-[120px]
+
+    text-[]
+    sm:text-[]
+    md:text-[]
+    lg:text-[15px] 
+    
+    py-[4px]
+    lg:py-[7px]
+    px-[4px]
+    lg:px-[8px]
+
+    mb-[3px]
+    lg:mb-[20px] 
+}
+
+.box_2 .box_button .box2_b{
+
+    @apply bg-[#00def2] w-full rounded-[10px]
+
+    p-[10px]
+}
+
 
 
