@@ -255,11 +255,25 @@
     lg:mb-[20px] 
 }
 
+.box_2 .box_button{
+
+    @apply flex justify-center
+}
+
 .box_2 .box_button .box2_b{
 
-    @apply bg-[#00def2] w-full rounded-[10px]
+    @apply bg-[#00def2] rounded-sm  lg:rounded-[10px]
+    
+    text-black font-Jenna font-bold hover:bg-black hover:text-white
+    border-[1px] border-white  transition-all duration-[.3s]
+     active:scale-[1.1]
 
-    p-[10px]
+    p-[6px]
+    lg:p-[8px]
+
+    w-full
+    md:w-[200px]
+
 }
 
 
