@@ -16,7 +16,7 @@ import Bootstrap from '../../assets/Bootstrap.png'
 
 const Skills = () => {
   return (
-   <section  style={{background:`url(${Skillsbg})center/cover no-repeat`}} className='Skills_Mina'>
+   <section id='Skills' style={{background:`url(${Skillsbg})center/cover no-repeat`}} className='Skills_Mina'>
 
    <div className="container">
 

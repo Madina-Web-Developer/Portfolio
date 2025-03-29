@@ -5,7 +5,7 @@ import Pbg from '../../assets/PortfolioBG.png'
 
 const Portfolio = () => {
   return (
-    <section style={{background:`url(${Pbg})center/cover no-repeat`}} className='Mina_portfolio'>
+    <section id='Work' style={{background:`url(${Pbg})center/cover no-repeat`}} className='Mina_portfolio'>
 
         <div className="container">
 

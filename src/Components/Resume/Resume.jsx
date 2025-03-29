@@ -9,7 +9,7 @@ import { Link } from 'react-router'
 
 const Resume = () => {
   return (
-    <section  style={{background:`url(${ResumeBG})center/cover no-repeat`}} className='Resume'>
+    <section id='Resume'  style={{background:`url(${ResumeBG})center/cover no-repeat`}} className='Resume'>
     
     <div className="container">
 

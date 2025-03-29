@@ -14,7 +14,7 @@ const About = () => {
 
   return (
 
-    <section style={{background:`url(${AboutBanner})center/cover no-repeat`}} className='About_Mina'>
+    <section id='About' style={{background:`url(${AboutBanner})center/cover no-repeat`}} className='About_Mina'>
     <AnimatedCoursor/>
      
 

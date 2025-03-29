@@ -10,7 +10,7 @@ import { VscGithub } from 'react-icons/vsc'
 
 const Com = () => {
   return (
-    <section style={{background:`url(${Contactimg})center/cover no-repeat`}} className='Mina_contact'>
+    <section id='Contact' style={{background:`url(${Contactimg})center/cover no-repeat`}} className='Mina_contact'>
       <div className="container">
 
         <div className="contact_header">

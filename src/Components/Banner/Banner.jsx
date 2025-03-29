@@ -15,7 +15,7 @@ const Banner = () => {
 
 
   return (
-    <section style={{background:`url(${bannerimg})center/cover no-repeat`}} className='Mina_Banner relative'>
+    <section id='Home' style={{background:`url(${bannerimg})center/cover no-repeat`}} className='Mina_Banner relative'>
       <AnimatedCoursor/>
         <div className="main_Banner">
         
