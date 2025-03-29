@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import AboutBanner from '../../assets/About.png'
-import { Link } from 'react-router'
+import { Link } from 'react-scroll'
 import AnimatedCoursor from '../CouserEffect/AnimatedCoursor'
 import Aboutimg from '../../assets/Aboutimg.png'
 import SmallC from '../../assets/new.png'
@@ -72,7 +72,7 @@ const About = () => {
 
            <div className="hireme">
            <div className="along flex gap-[10px] items-center">
-           <button><Link to={'#'}><h2>HIRE ME</h2></Link></button>
+           <button><Link to="Contact" smooth={true} duration={700}><h2>HIRE ME</h2></Link></button>
            <FaArrowRightLong className='Arrow'/>
            </div>
            </div>

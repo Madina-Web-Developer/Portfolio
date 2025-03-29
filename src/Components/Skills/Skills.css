@@ -1,6 +1,6 @@
 .Skills_Mina{
 
-    @apply w-full  relative pb-[50px] 
+    @apply w-full  relative pb-[50px] pt-[25px]
 }
 
 .s_h h1{
@@ -42,7 +42,7 @@
 
     @apply flex  flex-wrap justify-start flex-col
 
-    mt-[8%]
+    mt-[4%]
     gap-[25%]
 }
 

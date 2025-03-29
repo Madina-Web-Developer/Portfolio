@@ -1,7 +1,7 @@
 import React from 'react'
 import './Banner.css'
 import bannerimg from '../../assets/Banner.png'
-import { Link } from 'react-router'
+import { Link } from 'react-scroll'
 import YouTubeLogo from '../../assets/YouTube.png'
 import Typewriter from 'typewriter-effect';
 import AnimatedCoursor from '../CouserEffect/AnimatedCoursor'
@@ -56,7 +56,7 @@ const Banner = () => {
                 </p>
 
                 <div className="button">
-                    <button><Link to={'#'}>Watch Video Resume</Link>
+                    <button><Link  to="Resume" smooth={true} duration={700} >Watch Video Resume</Link>
                     </button>
                     <img src={YouTubeLogo} alt="youtube" /> 
                 </div>
