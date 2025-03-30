@@ -37,7 +37,7 @@ const Navbar = () => {
                             <li><Link to="Resume" smooth={true} duration={1000} >RESUME</Link></li>
                             <li><Link to="Skills" smooth={true} duration={1000}>SKILLS</Link></li>
                             <li><Link to="Work" smooth={true} duration={1000} >WORK</Link></li> 
-                            <li><Link to="Work" smooth={true} duration={1000} >REVIEW</Link></li> 
+                            <li><Link to="Review" smooth={true} duration={1000} >REVIEW</Link></li> 
                             <li><Link to="Contact" smooth={true} duration={1000}>CONTACT</Link></li>
                             <div className="talk">
                             <div className="letstalk flex gap-[6px] items-center">
