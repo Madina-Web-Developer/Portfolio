@@ -30,10 +30,10 @@ const Com = () => {
               </div>
 
                   <div className="contact_icons">
-                  <Link to={'https://www.facebook.com/camelia.bin.josie/'} ><CiFacebook  className='c_icon' /></Link>
-                  <Link to={'https://www.linkedin.com/in/madina-akter-mina-326374346/'} ><CiLinkedin  className='c_icon' /></Link>
-                  <Link to={'#'}><AiOutlineGlobal className='c_icon'/></Link>
-                  <Link to={'https://github.com/Madina-Web-Developer'}><VscGithub className='c_icon'/></Link>
+                  <a href='https://www.facebook.com/camelia.bin.josie/' target='_blank'  ><CiFacebook  className='c_icon' /></a>
+                  <a href='https://www.linkedin.com/in/madina-akter-mina-326374346/' target='_blank' ><CiLinkedin  className='c_icon' /></a>
+                  <a href={'#'}><AiOutlineGlobal className='c_icon'/></a>
+                  <a href='https://github.com/Madina-Web-Developer' target='_blank'><VscGithub className='c_icon'/></a>
                   </div>
 
             </div>

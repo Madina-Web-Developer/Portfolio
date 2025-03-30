@@ -17,17 +17,17 @@ export default {
     container: {
        center: true,
        padding: {
-        DEFAULT: '18px',
-        sm: '30px',
-        lg: '40px',
-        xl: '50px',
-        '2xl': '50px',
+        DEFAULT: '10px',
+        sm: '10px',
+        lg: '30px',
+        xl: '40px',
+        '2xl': '40px',
       },
     },
 
     extend: {
       animation: {
-        'spin-slow': 'spin 40s linear infinite', // Adjust speed as needed
+        'spin-slow': 'spin 50s linear infinite', // Adjust speed as needed
       },
     },
   },

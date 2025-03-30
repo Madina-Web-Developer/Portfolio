@@ -1,24 +1,12 @@
-.Mina_nav{
 
-    @apply w-full fixed  pt-[20px] pb-[8px];
-
-    animation: scroll-transition;
-    animation-timeline: scroll(y); 
+.Mina_nav {
+    @apply fixed w-full  pt-[20px] pb-[8px] transition-all duration-300 bg-transparent backdrop-blur-0
+    
+    z-[10000];
 }
 
-
-@keyframes scroll-transition {
-    0% {
-        background-color: transparent;
-    }
-    20% {
-        background-color: #6a6a6a45; /* Semi-transparent black */
-        backdrop-filter: blur(14px); /* Adjust the blur strength */
-    }
-    100% {
-        background-color: #6a6a6a45;
-        backdrop-filter: blur(18px);
-    }
+.Mina_nav.scrolled {
+    @apply bg-[rgba(129,129,129,0.4)] backdrop-blur-[10px];
 }
 
 
@@ -34,26 +22,26 @@
 
 .text ul{
 
-    @apply flex 
+    @apply flex items-center
     
-    gap-[55px] font-Jenna font-semibold
+    gap-[50px] font-Jenna font-semibold
     
-    text-[18px] tracking-wide text-[#dfdede]
+    text-[17.5px] tracking-wide text-[#dfdede]
 }
 
 .text ul li a{
 
-    @apply hover:text-[#0de7fb] transition-all duration-[.3s]
+    @apply hover:text-[#0de7fb] transition-all duration-[.3s] cursor-pointer
 }
 
 
 .talk{
 
-    @apply bg-[#00def2] py-[7px] px-[10px] w-fit 
+    @apply bg-[#00def2] py-[8px] px-[8px] flex justify-center items-center
     
     hover:bg-[#000] hover:text-white 
 
-    border-[1px]   text-[#000]  rounded-[8px]
+    border-[1px]   text-[#000]  rounded-[6px]
 
     active:scale-[1.1] transition-all duration-[.4s] font-Jenna
 
@@ -79,7 +67,7 @@
     text-[]
     sm:text-[]
     md:text-[]
-    lg:text-[15px] 
+    lg:text-[17px] 
  }
 
 

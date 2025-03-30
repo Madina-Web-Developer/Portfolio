@@ -43,7 +43,7 @@ const Banner = () => {
                         
                         options={{
                             autoStart: true,
-                            strings: ["I'M A REACT WEB DESIGNER. . . .", "I'M A REACT WEB DEVELOPER. . . ."],
+                            strings: ["I'M A REACT WEB DESIGNER. . . .", "I'M A REACT WEB DEVELOPER. . ."],
                             loop: true,
                             delay:120,
                         }}
