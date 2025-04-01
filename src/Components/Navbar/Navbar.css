@@ -6,7 +6,7 @@
 }
 
 .Mina_nav.scrolled {
-    @apply bg-[rgba(129,129,129,0.4)] backdrop-blur-[10px];
+    @apply bg-[rgba(107,107,107,0.4)] backdrop-blur-[10px];
 }
 
 
