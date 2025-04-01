@@ -2,6 +2,7 @@ import React from 'react'
 import './Com.css'
 import Contactimg from '../../assets/Com.png'
 import MinaimgC from '../../assets/Contactimg.png'
+import Eidimg from '../../assets/EidPic.png'
 import { CiFacebook, CiLinkedin } from 'react-icons/ci'
 import { Link } from 'react-router'
 import { AiOutlineGlobal } from 'react-icons/ai'
@@ -21,7 +22,7 @@ const Com = () => {
         <div className="contact_box">
 
           <div className="mina_img">
-            <img src={MinaimgC} alt="contactimg" />
+            <img src={Eidimg} alt="contactimg" />
             <div className="left">
 
               <div className="all_icons_c">
