@@ -14,7 +14,7 @@
 
 .Comment_text_part{
 
-    @apply text-center pt-[6.5%]
+    @apply text-center pt-[8%]
 }
 
 .Comment_text_part .com_head{
@@ -56,9 +56,7 @@
 
     @apply overflow-hidden
 
-    w-[]
-    sm:w-[]
-    md:w-[]
+    w-full
     lg:w-[80px]
     xl:w-[110px]
 }
@@ -120,3 +118,18 @@
   .dot-animation {
     animation: moveDots 4s linear infinite alternate;
   }
+
+  
+.slick-dots li button{
+    @apply text-[0px] h-[10px] w-[10px] bg-gray-50 rounded-full
+}
+.slick-dots{
+    @apply !flex justify-center gap-[10px] mt-[2%]
+}
+.slick-dots  .slick-active button{
+
+    @apply bg-[#00ccff] h-[10px] w-[10px]
+}
+ .slick-arrow{
+    @apply !text-[opx] !hidden
+}
