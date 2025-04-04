@@ -12,6 +12,7 @@ export default {
       'vidaloka':["Vidaloka", "serif"],
       'Jenna':["Space Grotesk", "serif"],
       'Train':["Train One", "serif"],
+      'Inter':["Inter", "serif"]
 
     },
     container: {

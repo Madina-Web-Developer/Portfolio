@@ -1,13 +1,122 @@
 .review_madina{
 
-    @apply  w-full min-h-screen  flex items-center  relative
+    @apply  w-full min-h-screen  relative
 }
 
 .box_com {
 
-    @apply absolute top-[15%] left-[8%]
+    @apply absolute top-[14%] left-[8%]
 }
 .box_com img{
 
     @apply w-[] sm:w-[] md:w-[] lg:w-[] xl:w-[150x]
 }
+
+.Comment_text_part{
+
+    @apply text-center pt-[6.5%]
+}
+
+.Comment_text_part .com_head{
+
+    @apply bg-white/20 inline-block p-[10px] rounded-[4px] 
+}
+
+.Comment_text_part .com_head h1{
+
+    @apply  text-white font-Inter tracking-[3px] font-medium text-center
+
+    text-[]
+    sm:text-[]
+    md:text-[15]
+    lg:text-[16px] 
+}
+
+.Comment_text_part h2{
+
+    @apply text-white font-Inter font-bold
+
+    text-[]
+    sm:text-[]
+    md:text-[]
+    lg:text-[30px]
+    xl:text-[38px]
+
+    mt-[5px]
+}
+
+.slider_com_part {
+
+    @apply flex justify-center items-center mt-[70px] flex-col
+
+   
+}
+
+.slider_com_part .people_img img{
+
+    @apply overflow-hidden
+
+    w-[]
+    sm:w-[]
+    md:w-[]
+    lg:w-[80px]
+    xl:w-[110px]
+}
+
+.slider_com_part .people_comments p{
+
+    @apply text-gray-100 text-center font-Inter
+    
+    mt-[30px]
+ 
+    text-[]
+    sm:text-[]
+    md:text-[]
+    lg:text-[16px]
+    xl:text-[18px]
+
+    w-[]
+    sm:w-[]
+    md:w-[]
+    lg:w-[550px]
+    xl:w-[700px]
+}
+
+.slider_com_part .people_comments h3{
+
+    @apply text-gray-100 text-center font-Inter font-medium
+    
+    mt-[30px]
+ 
+    text-[]
+    sm:text-[]
+    md:text-[]
+    lg:text-[18px]
+    xl:text-[20px]
+}
+.slider_com_part .people_comments h4{
+
+    @apply text-gray-500 text-center font-Inter font-light
+    
+    
+ 
+    text-[]
+    sm:text-[]
+    md:text-[]
+    lg:text-[10px]
+    xl:text-[15px]
+}
+
+
+@keyframes moveDots {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(6vw);
+    }
+  }
+  
+  .dot-animation {
+    animation: moveDots 4s linear infinite alternate;
+  }
