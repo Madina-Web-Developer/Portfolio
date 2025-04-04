@@ -5,7 +5,7 @@
 
 .box_com {
 
-    @apply absolute top-0 left-0
+    @apply absolute top-[15%] left-[8%]
 }
 .box_com img{
 
