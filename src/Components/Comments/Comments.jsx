@@ -16,7 +16,7 @@ const Comments = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    <autoplaySpeed:7></autoplaySpeed:7>000,
+    autoplaySpeed:7000,
     pauseOnHover: true,
 
     responsive: [
@@ -130,15 +130,3 @@ const Comments = () => {
 
 export default Comments
 
-
-//    <div className="slider_com_part">
-
-{/* <div className="people_img">
-<img src={Farhatimg} alt="farhatimg" />
-</div>
-<div className="people_comments">
-<p>"Working with Madina was an absolute pleasure! She took the time to understand my vision and turned it into a stunning, functional website. Her attention to detail, responsiveness, and creativity made the entire process smooth and enjoyable. Highly recommend !"</p>
-<h3>Farhat Ali</h3>
-<h4>Person Name</h4>
-</div>
-</div> */}
