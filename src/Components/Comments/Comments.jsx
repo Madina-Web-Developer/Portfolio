@@ -16,7 +16,7 @@ const Comments = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed:7000,
+    autoplaySpeed:6000,
     pauseOnHover: true,
 
     responsive: [
