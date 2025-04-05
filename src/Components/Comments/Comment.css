@@ -19,7 +19,7 @@
 
 .Comment_text_part .com_head{
 
-    @apply bg-white/20 inline-block p-[10px] rounded-[4px] 
+    @apply bg-white/15 inline-block p-[10px] rounded-[4px] 
 }
 
 .Comment_text_part .com_head h1{

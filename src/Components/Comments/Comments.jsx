@@ -4,6 +4,7 @@ import revimg from '../../assets/RV3.png'
 import Boxeffect from '../../assets/Box_C.png'
 import Farhatimg from '../../assets/Farhat.png'
 import Riazimg from '../../assets/Riaz.png'
+import Susitimg from '../../assets/Raj.png'
 import "slick-carousel/slick/slick.css";
 import Slider from 'react-slick'
 
@@ -16,7 +17,7 @@ const Comments = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed:6000,
+    autoplaySpeed:5000,
     pauseOnHover: true,
 
     responsive: [
@@ -97,11 +98,11 @@ const Comments = () => {
       <div className="slider_com_part">
 
 <div className="people_img">
-  <img src={Farhatimg} alt="farhatimg" />
+  <img src={Susitimg} alt="farhatimg" />
 </div>
 <div className="people_comments">
-  <p>"Working with Mina was an absolute pleasure ! She took the time to understand my vision and turned it into a stunning, functional website. Her attention to detail, responsiveness, and creativity made the entire process smooth and enjoyable. Highly recommend !"</p>
-  <h3>Farhat Ali</h3>
+  <p>"Mina exceeded my expectations! She took my ideas and crafted a website that is not only visually stunning but also highly functional. Her professionalism, creativity, and attention to detail made the entire process effortless. She’s a great communicator and truly cares about delivering the best results. I highly recommend her!"</p>
+  <h3>Sushith Raj</h3>
   <h4>Person Name</h4>
 </div>
       </div>
