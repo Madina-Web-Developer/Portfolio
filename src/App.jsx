@@ -2,6 +2,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, Router, RouterPro
 import './App.css'
 import LayoutOne from './Components/Layouts/LayoutOne'
 import Home from './Components/Pages/Home'
+import app from './firebase.config'
 
 function App() {
  
