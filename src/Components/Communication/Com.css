@@ -190,7 +190,7 @@
 }
 .box_2 .all_f_part .same {
 
-    @apply bg-[#1850849c] border-[1px] border-gray-600 lg:rounded-[4px] rounded-[2px] outline-none hover:border-gray-400 transition-all duration-[.3s] text-gray-100 font-Jenna tracking-[1px] 
+    @apply bg-[#1850849c] border-[1px] border-gray-600 lg:rounded-[4px] rounded-[2px] outline-none hover:border-gray-300 transition-all duration-[.3s] text-gray-100 font-Jenna tracking-[1px] 
     
     w-[150px]
     sm:w-[]
@@ -215,7 +215,7 @@
 
 .box_2 .subject_input {
 
-    @apply bg-[#1850849c] border-[1px] border-gray-600 lg:rounded-[4px] rounded-[2px] outline-none hover:border-gray-400 transition-all duration-[.3s] text-gray-100 font-Jenna tracking-[1px] 
+    @apply bg-[#1850849c] border-[1px] border-gray-600 lg:rounded-[4px] rounded-[2px] outline-none hover:border-gray-300 transition-all duration-[.3s] text-gray-100 font-Jenna tracking-[1px] 
     
     w-full
     text-[]
@@ -233,7 +233,7 @@
 }
 .box_2 .Message_textarea {
 
-    @apply bg-[#1850849c] border-[1px] border-gray-600 lg:rounded-[4px] rounded-[2px] outline-none hover:border-gray-400 transition-all duration-[.3s] text-gray-100 font-Jenna overflow-y-scroll 
+    @apply bg-[#1850849c] border-[1px] border-gray-600 lg:rounded-[4px] rounded-[2px] outline-none hover:border-gray-300 transition-all duration-[.3s] text-gray-100 font-Jenna overflow-y-scroll 
     
     w-full
     h-[60px]

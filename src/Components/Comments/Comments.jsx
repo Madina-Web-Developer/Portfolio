@@ -5,6 +5,7 @@ import Boxeffect from '../../assets/Box_C.png'
 import Farhatimg from '../../assets/Farhat.png'
 import Riazimg from '../../assets/Riaz.png'
 import Susitimg from '../../assets/Raj.png'
+import Anasimg from '../../assets/Anas.png'
 import "slick-carousel/slick/slick.css";
 import Slider from 'react-slick'
 
@@ -113,11 +114,11 @@ const Comments = () => {
       <div className="slider_com_part">
 
       <div className="people_img">
-        <img src={Riazimg} alt="farhatimg" />
+        <img src={Anasimg} alt="farhatimg" />
       </div>
       <div className="people_comments">
-        <p>"Mina is an incredible developer ! She carefully listened to my ideas and transformed them into a beautifully designed, user-friendly website. Her dedication, creativity, and keen eye for detail made the entire experience seamless. She was communicative, professional, and truly brought my vision to life. I couldn’t be happier with the results !"</p>
-        <h3>Riaz Ahmad</h3>
+        <p>"Mina was recommended to me by a friend, and now I see why. She’s not only skilled but also really easy to work with. I appreciated how she kept me in the loop during the whole process and was open to feedback. The site turned out clean, fast, and exactly what I needed. Would definitely work with her again!"</p>
+        <h3>Muhammad Anas Mir</h3>
         <h4>Person Name</h4>
       </div>
       </div>
