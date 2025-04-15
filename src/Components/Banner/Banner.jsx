@@ -9,8 +9,6 @@ import BannerSlide from '../BannerSlide/BannerSlide'
 
 
 
-
-
 const Banner = () => {
 
 
