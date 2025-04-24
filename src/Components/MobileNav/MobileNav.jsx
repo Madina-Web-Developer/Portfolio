@@ -3,7 +3,11 @@ import './MobileNav.css'
 
 const MobileNav = () => {
   return (
-    <div>MobileNav</div> 
+
+    <div>
+      <div>Mobilenav</div>
+    </div> 
+    
     
   )
 }
